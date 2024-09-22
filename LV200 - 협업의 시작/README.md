@@ -17,14 +17,14 @@ Issue(이슈)는 프로젝트 진행 시 작업의 새로 추가될 기능, 버�
 
 **Issue 탭 이용하기:**
 
-<img width="900" alt="스크린샷 2024-09-22 오후 6 03 04" src="https://github.com/user-attachments/assets/797d8ad5-2ec2-474f-b36e-435380f49576">
+<img width="800" alt="스크린샷 2024-09-22 오후 6 03 04" src="https://github.com/user-attachments/assets/797d8ad5-2ec2-474f-b36e-435380f49576">
 
 위의 사진 보이시나요?
 레포지토리 탭바에 Issue 탭에 들어가줍니다!
 
 Issue 창에 들어간 후, 오른쪽 윗 부분의 `New Issue` 버튼을 클릭해봅시다!
 
-<img width="900" alt="스크린샷 2024-09-22 오후 8 08 38" src="https://github.com/user-attachments/assets/9c11568f-89c1-4bfe-8899-50b5e1b0d2a6">
+<img width="800" alt="스크린샷 2024-09-22 오후 8 08 38" src="https://github.com/user-attachments/assets/9c11568f-89c1-4bfe-8899-50b5e1b0d2a6">
 
 `Add a Title` 부분에는 본인이 할당한 작업의 제목을,
 
@@ -35,7 +35,7 @@ Issue 창에 들어간 후, 오른쪽 윗 부분의 `New Issue` 버튼을 클릭
 이해를 돕기 위해 제가 실제로 진행했던 프로젝트의 Issue 중 한 가지를 가져왔습니다.
 
 <br>
-<img width="900" alt="스크린샷 2024-09-22 오후 8 15 48" src="https://github.com/user-attachments/assets/249eb0c6-c380-4d83-be1c-95c84a1ea548">
+<img width="800" alt="스크린샷 2024-09-22 오후 8 15 48" src="https://github.com/user-attachments/assets/249eb0c6-c380-4d83-be1c-95c84a1ea548">
 
 <br>
 
@@ -60,3 +60,12 @@ Issue 창에 들어간 후, 오른쪽 윗 부분의 `New Issue` 버튼을 클릭
   ```
 
 <br>
+
+### 🚤 1.3 Issue 닫기
+처음 Issue를 생성하셨다면 `Open` 되어있을텐데요,
+
+<img width="801" alt="스크린샷 2024-09-22 오후 9 00 07" src="https://github.com/user-attachments/assets/2e691152-15c8-4a74-9711-3c9451ec4104">
+
+아래 `Close Issue` 버튼을 통해 `Close`로 상태를 변경해주시면 됩니다.
+
+닫은 Issue들은 따로 보관되고, 혹시 실수로 닫았을 경우에도 다시 `Open` 상태로 변경할 수 있습니다!
