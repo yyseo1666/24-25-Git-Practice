@@ -43,7 +43,7 @@ Issue 창에 들어간 후, 오른쪽 윗 부분의 `New Issue` 버튼을 클릭
 
 `Assignees`: Assignee는 이 이슈를 해결할 책임이 있는, 말 그대로 담당자입니다.
 
-`Labels`: 팀 내에서 정한 여러 Labels가 존재할 것입니다. (ex. Feat, Network, Design) 그 중 각 이슈에 맞는 Labels를 달아 주시면 됩니다.
+`Labels`: 팀 내에서 정한 여러 Labels가 존재할 것입니다. (ex. Feat, Bug / Feat는 새로운 기능 개발, Bug는 버그 수정을 의미합니다.) 그 중 각 이슈에 맞는 Label를 달아 주시면 됩니다.
 
 `Projects`: 프로젝트가 있을 경우 해당 프로젝트를 선택해 주시면 됩니다. 
 
@@ -67,5 +67,7 @@ Issue 창에 들어간 후, 오른쪽 윗 부분의 `New Issue` 버튼을 클릭
 <img width="801" alt="스크린샷 2024-09-22 오후 9 00 07" src="https://github.com/user-attachments/assets/2e691152-15c8-4a74-9711-3c9451ec4104">
 
 아래 `Close Issue` 버튼을 통해 `Close`로 상태를 변경해주시면 됩니다.
+
+성공적으로 merge 되었거나, 작업이 완료되었을 때 이슈를 닫습니다. 
 
 닫은 Issue들은 따로 보관되고, 혹시 실수로 닫았을 경우에도 다시 `Open` 상태로 변경할 수 있습니다!
