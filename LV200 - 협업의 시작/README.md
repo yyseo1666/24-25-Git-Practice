@@ -64,7 +64,7 @@ Issue 창에 들어간 후, 오른쪽 윗 부분의 `New Issue` 버튼을 클릭
 ### 🚤 1.3 Issue 닫기
 처음 Issue를 생성하셨다면 `Open` 되어있을텐데요,
 
-<img width="801" alt="스크린샷 2024-09-22 오후 9 00 07" src="https://github.com/user-attachments/assets/2e691152-15c8-4a74-9711-3c9451ec4104">
+<img width="800" alt="스크린샷 2024-09-22 오후 9 00 07" src="https://github.com/user-attachments/assets/2e691152-15c8-4a74-9711-3c9451ec4104">
 
 아래 `Close Issue` 버튼을 통해 `Close`로 상태를 변경해주시면 됩니다.
 
@@ -117,7 +117,7 @@ PR을 생성할 때 프로젝트 팀원들이 따르는 일관된 양식입니�
 
 <br>
 
-<img width="900" alt="스크린샷 2024-09-22 오후 9 14 45" src="https://github.com/user-attachments/assets/23916b91-2d75-4b69-b04e-bed93669972b">
+<img width="800" alt="스크린샷 2024-09-22 오후 9 14 45" src="https://github.com/user-attachments/assets/23916b91-2d75-4b69-b04e-bed93669972b">
 
 <hr>
 
@@ -217,7 +217,7 @@ Commit Message는 코드의 변경 사항을 요약하여 한 눈에 알아볼�
 
 이해를 돕기 위해 제가 실제로 진행했던 프로젝트의 커밋 메시지들을 가져왔습니다.
 
-<img width="900" alt="스크린샷 2024-09-27 오후 3 23 49" src="https://github.com/user-attachments/assets/cd3b0525-181c-4869-b7de-03e43e5fbade">
+<img width="800" alt="스크린샷 2024-09-27 오후 3 23 49" src="https://github.com/user-attachments/assets/cd3b0525-181c-4869-b7de-03e43e5fbade">
 
 <hr>
 
