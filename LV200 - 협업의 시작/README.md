@@ -119,6 +119,8 @@ PR을 생성할 때 프로젝트 팀원들이 따르는 일관된 양식입니�
 
 <img width="900" alt="스크린샷 2024-09-22 오후 9 14 45" src="https://github.com/user-attachments/assets/23916b91-2d75-4b69-b04e-bed93669972b">
 
+<hr>
+
 다음은 PR 템플릿 예시입니다!
 
 <br>
@@ -139,9 +141,88 @@ PR 개요 및 내용을 적어주세요.
 ## Additional & Attention points(optional) 🔥
 주의할 점이나 리뷰어가 집중해서 봐야하는 부분이 있다면 작성해주세요.
 <br><br/>
-
-## Test result 🧪
-테스트 여부와 방법을 작성해주세요.
 ```
+
+<br>
+
+## ✨ 3단계: Commit Message Convention
+다음으로 깃허브 협업 시 커밋 메시지를 더욱 효율적이게 사용하는 방법을 알아볼까요?
+
+### 🚤 3.1 Commit Message Convention
+
+Commit Message Convention 이란?
+
+Git을 사용하여 협업할 때에 프로젝트 참여자들이 통일된 커밋 메시지 양식을 지켜 작성하기 위한 일종의 규칙입니다.
+
+일반적으로 관습적인 Commit Message Convention이 있지만, 프로젝트마다 바꾸어서 사용하기도 합니다!
+
+### 🚤 3.2 Commit Message Convention의 중요성
+
+그럼 이러한 규칙이 왜 중요할까요?
+
+Commit Message는 코드의 변경 사항을 요약하여 한 눈에 알아볼수 있게 하는 역할을 합니다.
+
+이 때 프로젝트 참여자마다 각기 다른 방식으로 커밋 메시지를 작성하게 되면 가독성이 떨어지고, 효율적인 프로젝트 관리와 협업이 어렵습니다.
+
+따라서 일관된 커밋 메시지를 사용하여 가독성 및 커뮤니케이션의 효율성을 높일 수 있습니다!
+
+### 🚤 3.3 Commit Message Convention 기본 양식
+- 기본 포맷
+```bash
+<type>(optional: scope): <subject>
+
+// feat(login): 로그인 기능 추가
+
+<body>
+
+// 이 커밋은 로그인 기능을 구현했습니다
+
+<footer> #Issue number
+
+// Closes #45
+```
+
+1) 타입(Type)
+타입은 이 커밋이 어떤 종류의 작업을 했는지를 나타냅니다. 아래는 Commit Type의 예시입니다.
+
+`feat`: 새로운 기능 추가
+
+`fix`: 버그 수정
+
+`docs`: 문서 관련 변경
+
+`refactor`: 코드 리팩토링 
+
+`test`: 테스트 추가 또는 수정
+
+2) 스코프(Scope) (옵션)
+스코프는 변경된 부분의 모듈이나 기능을 명시하는 선택적 요소입니다.
+
+예를 들어 login, api 등 구체적인 내용을 표시할 수 있습니다.
+
+4) 제목(Subject)
+제목은 커밋의 핵심 내용을 요약하는 부분입니다.
+
+👻 하지만! 일반적으로는 <type>: <subject>의 형식으로만 간단하게 작성합니다.
+
+```bash
+<type>: <subject>  // feat: 로그인 기능 추가
+```
+
+### 🚤 3.4 Gitmoji 
+
+커밋 메시지 type을 글자로 작성하지 않고 깃모지를 사용하는 경우도 있습니다.
+
+깃모지(Gitmoji)는 깃 커밋 메시지에 이모지를 사용하여 커밋의 목적을 직관적으로 표현하는 방식입니다. 
+
+이해를 돕기 위해 제가 실제로 진행했던 프로젝트의 커밋 메시지들을 가져왔습니다.
+
+<img width="900" alt="스크린샷 2024-09-27 오후 3 23 49" src="https://github.com/user-attachments/assets/cd3b0525-181c-4869-b7de-03e43e5fbade">
+
+<hr>
+
+참고 사이트 첨부해놓을테니 한 번 둘러보시면 좋습니다!
+
+https://gitmoji-js.netlify.app/
 
 <br>
