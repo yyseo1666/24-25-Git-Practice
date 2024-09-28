@@ -20,7 +20,7 @@ Issue(이슈)는 프로젝트 진행 시 작업의 새로 추가될 기능, 버�
 <img width="800" alt="스크린샷 2024-09-22 오후 6 03 04" src="https://github.com/user-attachments/assets/797d8ad5-2ec2-474f-b36e-435380f49576">
 
 위의 사진 보이시나요?
-레포지토리 탭바에 Issue 탭에 들어가줍니다!
+레포지토리 탭바에서 Issue 탭에 들어갑니다!
 
 Issue 창에 들어간 후, 오른쪽 윗 부분의 `New Issue` 버튼을 클릭해봅시다!
 
@@ -77,7 +77,7 @@ Issue 창에 들어간 후, 오른쪽 윗 부분의 `New Issue` 버튼을 클릭
 ## ✨ 2단계: PR
 다음으로는 다른 팀원과의 conflict를 방지하기 위한 효율적인 PR 방법을 알아봅시다!
 
-### 🚤 1.1 PR(Pull Request) 무엇일까?
+### 🚤 2.1 PR(Pull Request)은 무엇일까?
 
 PR(Pull Request)은 **브랜치에서 작업한 내용을 다른 브랜치로 Merge 하기 위한 요청입니다.**  
 
@@ -85,7 +85,7 @@ PR(Pull Request)은 **브랜치에서 작업한 내용을 다른 브랜치로 Me
 
 PR을 통해 다른 팀원들에게 코드 리뷰를 받고 conflict를 미리 방지할 수 있습니다!
 
-### 🚤 1.2 PR(Pull Request) 과정
+### 🚤 2.2 PR(Pull Request) 과정
 
 PR 과정을 알아볼까요?
 
@@ -148,7 +148,7 @@ PR 개요 및 내용을 적어주세요.
 ## ✨ 3단계: Commit Message Convention
 다음으로 깃허브 협업 시 커밋 메시지를 더욱 효율적이게 사용하는 방법을 알아볼까요?
 
-### 🚤 3.1 Commit Message Convention
+### 🚤 3.1 Commit Message Convention은 무엇일까?
 
 Commit Message Convention 이란?
 
@@ -211,7 +211,7 @@ Commit Message는 코드의 변경 사항을 요약하여 한 눈에 알아볼�
 
 ### 🚤 3.4 Gitmoji 
 
-커밋 메시지 type을 글자로 작성하지 않고 깃모지를 사용하는 경우도 있습니다.
+커밋 메시지 type을 글자로 작성하지 않고 Gitmoji를 사용하는 경우도 있습니다.
 
 깃모지(Gitmoji)는 깃 커밋 메시지에 이모지를 사용하여 커밋의 목적을 직관적으로 표현하는 방식입니다. 
 
