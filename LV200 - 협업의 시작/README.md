@@ -45,6 +45,10 @@ Issue 창에 들어간 후, 오른쪽 윗 부분의 `New Issue` 버튼을 클릭
 
 `Labels`: 팀 내에서 정한 여러 Labels가 존재할 것입니다. (ex. Feat, Bug / Feat는 새로운 기능 개발, Bug는 버그 수정을 의미합니다.) 그 중 각 이슈에 맞는 Label를 달아 주시면 됩니다.
 
+Ex)
+
+<img width="800" alt="스크린샷 2024-10-02 오후 4 32 08" src="https://github.com/user-attachments/assets/88fa4089-28dd-4609-89d0-4465e87ec9a7">
+
 `Projects`: 프로젝트가 있을 경우 해당 프로젝트를 선택해 주시면 됩니다. 
 
 `Milestone`: 프로젝트의 큰 목표나 일정과 관련된 이슈들을 묶어서 관리하는 기능입니다. Label과 Assignee를 부여해도 각 기능별 서로 유사한 이슈들이 존재하기 때문에 이 기능을 이용해 이슈들을 그룹화합니다.
