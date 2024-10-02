@@ -81,8 +81,4 @@ VSCode 터미널을 열어 컨테이너 내부에서 명령어를 실행할 준�
 ---
 
 🎉 이제 Git 및 Docker 설정을 마쳤습니다! 다음 여정에서는 Git/Github의 기본적인 개념을 알아보고, 여러 명령어로 본격적인 협업을 시작해 봅시다!
-
-<div style="display: flex; justify-content: space-between;">
-  <a href="이전세션링크" style="font-size: 18px; color: transparent; pointer-events: none;">Prev</a>
-  <a href="다음세션링크" style="font-size: 18px;">Next: LV100</a>
-</div>
+### Next: [[LV 100]](https://github.com/GDSC-Gachon/24-25-Git-Practice/tree/main/LV100%20-%20%EB%A7%9B%EC%A7%91%20%EC%A7%80%EB%8F%84)
