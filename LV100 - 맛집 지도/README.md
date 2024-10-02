@@ -260,7 +260,4 @@ PR을 생성하면 원본 저장소 관리자가 내가 요청한 내용을 검�
 
 앞으로 깃과 깃허브를 이용하여 팀원들과 함께 멋진 프로젝트를 만들어나가 보세요! 🚀 
 
-<div style="display: flex; justify-content: space-between;">
-  <a href="이전세션링크" style="font-size: 18px;">Prev: LV000</a>
-  <a href="다음세션링크" style="font-size: 18px;">Next: LV100</a>
-</div>
+### Next: [[LV 200]](https://github.com/GDSC-Gachon/24-25-Git-Practice/blob/main/LV200%20-%20%ED%98%91%EC%97%85%EC%9D%98%20%EC%8B%9C%EC%9E%91/README.md)
