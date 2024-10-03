@@ -35,39 +35,50 @@ git push origin main
 ## 🏝 2단계: 커밋 실수 해결하기
 여러 파일을 수정하면서 각 파일에 대한 커밋 메시지를 개별적으로 작성해야 했지만, 실수로 여러 파일을 모두 같은 커밋 메시지로 작성해버렸습니다. 이 문제를 어떻게 해결할 수 있을까요?
 
-### 🏝 2.1 마지막 커밋 수정
-**1. 직전 커밋 수정**
-
+### 🏝 2.1 직전 커밋 수정
 방금 커밋한 메시지를 수정하고 싶다면, `git amend` 명령어를 사용하여 직전 커밋을 수정할 수 있습니다. 이때 수정된 내용은 새 커밋을 만들지 않고, 마지막 커밋을 덮어씁니다.
 ```bash
 git commit --amend
 ```
-(사진 첨부)
 
-**2. 수정 완료 후 푸시**
-
-커밋 기록이 변경되므로 `--force`를 사용하여 강제로 푸시합니다.
+- 본인의 브랜치에 `file1.txt`, `file2.txt` 파일을 생성 후 자유롭게 내용을 작성해주세요.
+- 다음 명령어를 따라 두 파일 모두 커밋 후 푸시합니다.
 ```bash
-git push --force
+git add .
+git commit -m "file1 작업 완료"
+git push origin lv300/<본인 이름>
 ```
+- 작업 내용이 원격 저장소에 올라가긴 했지만, 우리는 file1과 file2, 두 파일을 작업하였으므로 커밋 메시지 내용을 바꿔보겠습니다.
+- `amend`를 사용해 직전 커밋을 수정하고, `force`를 사용해 강제 푸시합니다.
+```bash
+git commit --amend -m "file1, file2 작업 완료"
+git push --force origin lv300/<본인 이름>
+```
+<img width="404" alt="스크린샷 2024-10-03 오후 2 49 35" src="https://github.com/user-attachments/assets/8d6ed4f4-c498-4da0-b6b9-4ccfe6bc4501">
 
-### 🏝 2.2 특정 커밋 취소
-**1. 특정 커밋 취소**
 
+### 🏝 2.2 직전 커밋 취소
 `git reset --soft` 명령어를 사용하여 특정 커밋을 취소할 수 있습니다.
 이때 해당 커밋 이후의 변경사항은 스테이징 상태로 유지됩니다.
 ```bash
 git reset --soft HEAD~1
 ```
-**2. 개별 커밋 다시 작성**
-
-각 파일을 개별적으로 스테이징하고 커밋합니다.
+- file1과 file2의 내용을 각각 커밋하려고 합니다.
+- `reset --soft`를 사용해 커밋을 취소하고, `reset`으로 파일들을 스테이징 영역에서 제거합니다.
 ```bash
-git add <파일1>
-git commit -m "파일1 수정 내용"
-git add <파일2>
-git commit -m "파일2 수정 내용"
+git reset --soft HEAD~1
+git reset file1
+git reset file2
 ```
+- 이제 file1과 file2를 개별적으로 다시 커밋합니다.
+```bash
+git add file1.txt
+git commit -m "file1 작업 완료"
+git add file2.txt
+git commit -m "file2 작업 완료"
+git push --force origin lv300/<본인 이름>
+```
+<img width="358" alt="스크린샷 2024-10-03 오후 2 59 16" src="https://github.com/user-attachments/assets/890897ad-41ae-4088-bafe-fa4e9292f145">
 
 <br>
 
